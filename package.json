@@ -2,6 +2,7 @@
   "name": "tailwindcss-angular-demo",
   "version": "0.0.0",
   "scripts": {
+    "tailwind-watch": "postcss ./src/tailwind-build.css  -o ./src/styles-tailwind.css --watch",
     "ng": "ng",
     "start": "ng serve -o",
     "build": "ng build",
